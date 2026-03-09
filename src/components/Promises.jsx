@@ -93,7 +93,7 @@ export default function Promises({ next, back }) {
           className="absolute sm:ml-12 sm:mb-[90px] mb-[90px] ml-6 inset-0 z-50 bg-no-repeat"
           style={{
             backgroundImage: "url('/pic-4.png')",
-            backgroundSize: isMobile ? "170px 280px" : "220px 325px",
+            backgroundSize: isMobile ? "150px 240px" : "220px 325px",
             backgroundPosition: "bottom left",
             // rose-400 glow from bottom
             filter: "brightness(0.82) drop-shadow(0 15px 15px rgba(244, 114, 182, 0.1))", // subtle glow
@@ -115,7 +115,7 @@ export default function Promises({ next, back }) {
           className="absolute sm:mr-12 sm:mb-[90px] mb-[90px] mr-2 inset-0 z-50 bg-no-repeat"
           style={{
             backgroundImage: "url('/pic-5.png')",
-            backgroundSize: isMobile ? "170px 277px" : "230px 325px",
+            backgroundSize: isMobile ? "155px 235px" : "230px 325px",
             backgroundPosition: "bottom right",
 
             filter: "brightness(0.82) drop-shadow(0 20px 15px rgba(244, 114, 182, 0.1))", // subtle glow

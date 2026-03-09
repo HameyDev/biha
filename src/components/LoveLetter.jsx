@@ -7,7 +7,7 @@ export default function LoveLetter({ next, exit }) {
   const fullText = `Fariha…
 
 This might sound random…
-but I’m really glad you sent that snap that day.
+but I’m really glad you sent message that day.
 
 It was just a normal reply,
 just a small moment,
@@ -116,10 +116,10 @@ And that’s rare.
         </div>
 
         <div
-          className="absolute sm:mr-24 mr-12 sm:mb-28 mb-20 inset-0 z-20 bg-no-repeat"
+          className="absolute sm:mr-24 mr-4 sm:mb-28 mb-20 inset-0 z-20 bg-no-repeat"
           style={{
             backgroundImage: "url('/pic-3.png')",
-            backgroundSize: isMobile ? "150px 240px" : "250px 400px",
+            backgroundSize: isMobile ? "120px 175px" : "250px 400px",
             backgroundPosition: "bottom right",
 
             filter: "brightness(0.82) drop-shadow(0 20px 15px rgba(244, 114, 182, 0.1))", // subtle glow
