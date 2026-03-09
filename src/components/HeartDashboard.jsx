@@ -47,7 +47,7 @@ export default function HeartDashboard({ openSection, exit }) {
                 style={{ backgroundImage: "url('/laiba-bg.jpg')" }}
             />
             <div
-                className="absolute sm:ml-12 mb-6 ml-4 inset-0 z-20 bg-no-repeat"
+                className="absolute sm:ml-12 mb-12 ml-4 inset-0 z-20 bg-no-repeat"
                 style={{
                     backgroundImage: "url('/pic.png')",
                     backgroundSize: isMobile ? "140px 210px" : "270px 400px", // 📱 vs 💻
@@ -79,7 +79,7 @@ export default function HeartDashboard({ openSection, exit }) {
 
 
             <div
-                className="absolute sm:mr-12 mb-6 sm:mb-0 inset-0 z-20 bg-no-repeat"
+                className="absolute sm:mr-12 mb-12 sm:mb-0 inset-0 z-20 bg-no-repeat"
                 style={{
                     backgroundImage: "url('/pic-2.png')",
                     backgroundSize: isMobile ? "150px 230px" : "300px 500px",
